@@ -1,0 +1,62 @@
+Linux Commands – Meanings and Usage
+
+============================== File & Directory Commands
+==============================
+
+ls Lists files and folders in the current directory.
+
+ls -ltr Lists files in long format, sorted by time (oldest first). -l →
+long listing (permissions, size, date) -t → sort by time -r → reverse
+order
+
+cd Changes directory. Example: cd Documents
+
+cd .. Moves one directory back (parent directory).
+
+pwd Prints the current working directory.
+
+mkdir Creates a new directory. Example: mkdir myfolder
+
+rmdir Removes an empty directory.
+
+rm Deletes a file.
+
+rm -r Deletes a directory and its contents (recursive delete).
+
+============================== File Viewing & Editing
+==============================
+
+cat Displays file content in the terminal.
+
+cat >> Appends text to a file. Example: cat >> file.txt
+
+nano Opens a file in the Nano text editor.
+
+vi / vim Opens a file in the Vi or Vim text editor.
+
+head Shows the first 10 lines of a file (default).
+
+tail Shows the last 10 lines of a file (default).
+
+============================== System & Utility Commands
+==============================
+
+clear Clears the terminal screen.
+
+Ctrl + L Shortcut to clear the terminal screen.
+
+echo Prints text or variables in the terminal. Example: echo Hello
+
+whoami Shows the current logged-in user.
+
+date Displays the current system date and time.
+
+uptime Shows how long the system has been running.
+
+wsl Starts Windows Subsystem for Linux.
+
+sudo -i Switches to root user (administrator access).
+
+python3 –version Shows the installed Python 3 version.
+
+Ctrl + R Searches command history in the terminal.
